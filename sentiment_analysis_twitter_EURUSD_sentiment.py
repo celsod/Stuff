@@ -16,11 +16,11 @@ import operator
 #the consumer key, consumer secret, access token, and access token secret were all generated from twitter.  The developer option was
 #added to my bullshit twitter account
 
-consumer_key = 'qEUem1dL8smMEZ27CHouI6fNS'
-consumer_secret = 'JQtncM80jhedhZ8cLS7sNEyftnkQQaWMjPn6cztgtosyiIkgFB'
+consumer_key = 'CONSUMER KEY'
+consumer_secret = 'CONSUMER SECRET'
 
-access_token = '1122520496980078593-OuhZQPawHhJkmoMQjM94zatBUkb70p'
-access_token_secret = 'ckYsmX1bQKptcpcwxu9bcwvTMqLvrcxQwUipe7B59tLnS'
+access_token = 'ACCESS TOKEN'
+access_token_secret = 'ACCESS TOKEN SECRET'
 
 authentication = tweepy.OAuthHandler(consumer_key, consumer_secret) #gaining access to twitter via tweepy first half of authentication
 authentication.set_access_token(access_token, access_token_secret) #second half of authentication
